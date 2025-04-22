@@ -1,0 +1,56 @@
+<section>
+    <header class="navbar">
+      <img src="../images/LOgo.png" alt="Logo" class="logo">
+  
+      <button class="menu-btn" onclick="openSidebar()">☰ Menu</button>
+  
+      <input type="text" placeholder="Buscar productos..." class="search-box">
+  
+      <div class="icon-group">
+        <i class="bi bi-person-circle"></i>
+        <span class="divider"></span>
+        <i class="bi bi-heart"></i>
+  
+        <!-- Ícono de carrito en SVG (reemplazo) -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+        </svg>
+      </div>
+    </header>
+
+    <!-- Menú lateral -->
+<div id="mySidebar" class="sidebar">
+    <!-- Botón para cerrar -->
+    <a href="javascript:void(0)" class="close-btn" onclick="closeSidebar()">&times;</a>
+  
+    <h2>Ofertas</h2>
+    <a href="#">
+      <span class="label"><i class="fa-solid fa-futbol"></i> Deportes</span>
+      <i class="fa-solid fa-chevron-right"></i>
+    </a>
+    <a href="#">
+      <span class="label"><i class="fa-solid fa-dumbbell"></i> Entrenamiento</span>
+      <i class="fa-solid fa-chevron-right"></i>
+    </a>
+    <a href="#">
+      <span class="label"><i class="fa-solid fa-notes-medical"></i> Ortopédico</span>
+      <i class="fa-solid fa-chevron-right"></i>
+    </a>
+    <a href="#">
+      <span class="label"><i class="fa-solid fa-person-running"></i> Implementación</span>
+      <i class="fa-solid fa-chevron-right"></i>
+    </a>
+    <a href="#">
+      <span class="label"><i class="fa-solid fa-puzzle-piece"></i> Hobbies</span>
+      <i class="fa-solid fa-chevron-right"></i>
+    </a>
+    <hr>
+    <a href="#">Política de tratamiento de datos</a>
+    <a href="#">Términos y condiciones</a>
+  </div>
+  
+  
+  <div id="overlay" class="overlay" onclick="closeSidebar()"></div>
+  
+  </section>
+  
