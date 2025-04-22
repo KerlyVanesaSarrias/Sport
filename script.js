@@ -22,3 +22,24 @@ fetch('/components/footer.html')
     const footer = document.getElementById('footer');
     if (footer) footer.innerHTML = data;
   });
+
+  fetch('/pages/kerly.html')
+  .then(res => res.text())
+  .then(data => {
+    const inicio = document.getElementById('inicio');
+    if (inicio) inicio.innerHTML = data;
+  });
+
+  fetch('/pages/fernando.html')
+  .then(res => res.text())
+  .then(data => {
+    const acesoria = document.getElementById('acesoria');
+    if (acesoria) acesoria.innerHTML = data;
+  });
+
+  fetch('/pages/Steph.html')
+  .then(res => res.text())
+  .then(data => {
+    const maquinas = document.getElementById('maquinas');
+    if (maquinas) maquinas.innerHTML = data;
+  });
