@@ -1,0 +1,18 @@
+.bg-orange {
+    background-color: #DC6028;
+    color: white
+}
+ 
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;        
+    background-color: #ff7f00;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+  }
+ 
+  .carousel-indicators .active {
+    background-color: #ff7f00;
+    opacity: 1;
+  }
