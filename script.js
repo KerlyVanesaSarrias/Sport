@@ -45,6 +45,14 @@ fetch('/components/footer.html')
     if (maquinas) maquinas.innerHTML = data;
   });
 
+  fetch('/pages/fabian.html')
+  .then(res => res.text())
+  .then(data => {
+    const ropa = document.getElementById('ropa');
+    if (ropa) ropa.innerHTML = data;
+  });
+
+
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
   function openCartSidebar() {
