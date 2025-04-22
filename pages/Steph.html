@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../styles/Steph.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+    <section id="equipos-deportivos" class="equipos-deportivos">
+        <div id="titulo" class="titulo">
+            <h1>Equipos deportivos</h1>
+            <h2 id="subtitulo">Potencia tu entrenamiento con el equipo adecuado </h2>
+        </div>
+
+        <div class="equiposgym">
+            <h2 class="tituloegym"> Maquinaria gimnasio</h2>
+            <div class="equipos-row">
+                <!-- TARJETA 1 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/trotadora.jpg" class="card-img-top" alt="Banda trotadora">
+                    <div class="card-body">
+                        <h5 class="card-title">Banda trotadora</h5>
+                        <p class="card-text">Precio: $2556000.</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn bg-orange" data-bs-toggle="modal"
+                            data-bs-target="#modalTrotadora">
+                            Ver detalles
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalTrotadora" tabindex="-1" aria-labelledby="modalTrotadoraLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalTrotadoraLabel">Características Banda
+                                            trotadora</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li> Plegable Ahorradora de espacio</li>
+                                            <li> Peso Máximo de Usuario: 100 kg</li>
+                                            <li> Pantalla LCD : Tiempo, Velocidad, Distancia, Calorías, Ritmo Cardiaco.
+                                            </li>
+                                            <li> Programas: 15 pre-establecidos con conexión a bluetooth.</li>
+                                            <li> Conexión: 110 voltios.</li>
+                                            <li> Garantía de 12 meses en estructura y motor, 3 meses en piezas de
+                                                desgaste por defecto
+                                                de fábrica.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <a href="#" class="btn bg-orange">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TARJETA 2 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/eliptica.jpg" class="card-img-top" alt="Eliptica">
+                    <div class="card-body">
+                        <h5 class="card-title">Bicicleta elíptica</h5>
+                        <p class="card-text">Precio: $1699000.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn bg-orange" data-bs-toggle="modal"
+                            data-bs-target="#modalEliptica">
+                            Ver detalles
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalEliptica" tabindex="-1" aria-labelledby="modalElipticaLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalElipticaLabel">Características Bicileta
+                                            elíptica
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li> Tiene Body Fat.</li>
+                                            <li> Movimiento dual de brazos y piernas.</li>
+                                            <li> Estructura en acero, montada sobre balineras, carcasa plástica, volante
+                                                en hierro..
+                                            </li>
+                                            <li> Monitor a color LCD: Velocidad, distancia, tiempo, quema de calorías,
+                                                pulsaciones.</li>
+                                            <li> Peso máximo usuario: 120 kg.</li>
+                                            <li> Garantía de 12 meses en estructura y motor, 3 meses en piezas de
+                                                desgaste por defecto
+                                                de fábrica.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <a href="#" class="btn bg-orange">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TARJETA 3 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/bicicleta_est.jpg" class="card-img-top" alt="Bicicleta estática">
+                    <div class="card-body">
+                        <h5 class="card-title">Bicicleta estática spinning</h5>
+                        <p class="card-text">Precio: $2374000.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn bg-orange" data-bs-toggle="modal"
+                            data-bs-target="#modalBicicleta">
+                            Ver detalles
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalBicicleta" tabindex="-1" aria-labelledby="modalBicicletaLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalBicicletaLabel">Características Bicicleta
+                                            estática Spinning
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li> Equipo Cardiovascular.</li>
+                                            <li> Manubrio ajustable y antideslizante.</li>
+                                            <li> Monitor que indica: Velocidad, distancia, calorías, tiempo , frecuencia
+                                                Cardiaca.
+                                            </li>
+                                            <li> Freno de seguridad.</li>
+                                            <li> Peso máximo de usuario: 150 kg.</li>
+                                            <li> Garantía de 12 meses por defectos de fábrica (estructura), 6 meses por
+                                                defectos en monitores y tableros (electrónica).</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <a href="#" class="btn bg-orange">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TARJETA 4 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/multifuncional.jpg" class="card-img-top" alt="multifuncional 4 puestos">
+                    <div class="card-body">
+                        <h5 class="card-title"> Multifuncional 4 puestos</h5>
+                        <p class="card-text">Precio: $3087000.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn bg-orange" data-bs-toggle="modal"
+                            data-bs-target="#modalMultifuncional">
+                            Ver detalles
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalMultifuncional" tabindex="-1"
+                            aria-labelledby="modalMultifuncionalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalMultifuncionalLabel">Características
+                                            Multifuncional 4 puestos
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li> Equipo Muscular.</li>
+                                            <li> Manubrio ajustable y antideslizante.</li>
+                                            <li> Medidas: Largo 2.40 m; Ancho 2.00 m; Alto 2.00m.
+                                            </li>
+                                            <li>Ejercicios: polea alta/ poleta baja/ extensión pierna/ pecho lateral y
+                                                frontal/ pantorrilla/ presión pierna</li>
+                                            <li> Pin selector de peso.</li>
+                                            <li> Cojinería indeformable.</li>
+                                            <li> Garantía de 1 año por defectos de fabricación.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <a href="#" class="btn bg-orange">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="equiposgym">
+            <h2 class="tituloegym"> Implementos deportivos</h2>
+            <div class="equipos-row">
+                <!-- TARJETA 5 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/balon.jpg" class="card-img-top" alt="Balón pilates"">
+                    <div class=" card-body">
+                    <h5 class="card-title">Balón pilates</h5>
+                    <p class="card-text">Precio: $36700.</p>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn bg-orange" data-bs-toggle="modal" data-bs-target="#modalBalon">
+                        Ver detalles
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalBalon" tabindex="-1" aria-labelledby="modalBalonLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="modalBalonLabel"> Características Balón
+                                        pilates</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li> Material: látex</li>
+                                        <li> Construido en material anti explosión.</li>
+                                        <li> Diámetro :55 cm.</li>
+                                        <li> Incluye inflador.</li>
+                                        <li> Colores disponibles: Azul, gris y morado</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <a href="#" class="btn bg-orange">Añadir al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TARJETA 6 -->
+            <div class="card" style="width: 18rem;">
+                <img src="/images/mancuernas.jpg" class="card-img-top" alt="Mancuernas neopreno">
+                <div class="card-body">
+                    <h5 class="card-title">Set mancuernas neopreno 3LB Sportfitnes</h5>
+                    <p class="card-text">Precio: $45200.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn bg-orange" data-bs-toggle="modal"
+                        data-bs-target="#modalMancuernas">
+                        Ver detalles
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalMancuernas" tabindex="-1" aria-labelledby="modalMancuernasLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="modalMancuernasLabel">Características
+                                        Set de mancuernas neopreno 3LB Sportfitness
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li> Material en hierro.</li>
+                                        <li> Material externo: neopreno inyectado con agarradera plástica.
+                                        </li>
+                                        <li> Medida: 17x6x6 cm.</li>
+                                        <li> Diseño ergonómico.</li>
+                                        <li> Peso: 3 lb cada una</li>
+                                        <li> Uso: domestico e institucional.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <a href="#" class="btn bg-orange">Añadir al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TARJETA 7 -->
+            <div class="card" style="width: 18rem;">
+                <img src="/images/gimpasiva.jpg" class="card-img-top" alt="Set gimnasia pasiva">
+                <div class="card-body">
+                    <h5 class="card-title">Gimnasia pasiva Smartfitness</h5>
+                    <p class="card-text">Precio: $31500.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn bg-orange" data-bs-toggle="modal" data-bs-target="#modalGimpasiva">
+                        Ver detalles
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalGimpasiva" tabindex="-1" aria-labelledby="modalGimpasivaLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="modalGimpasivaLabel">Características Gimnasia
+                                        pasiva Smart fitness
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li> Incluye: 1 parche abdomen, 2 parches extremidades, 3
+                                            controles de electro-impulso, manual de uso (inglés).</li>
+                                        <li> Frecuencia: 1-100 Hz.</li>
+                                        <li> 6 Modos de uso.</li>
+                                        <li> Medidas: 20 x 22 x 3 cm.</li>
+                                        <li> Peso: 57.4 gr.</li>
+                                        <li> Garantía de 1 mes por defectos de fabricación.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <a href="#" class="btn bg-orange">Añadir al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TARJETA 8 -->
+            <div class="card" style="width: 18rem;">
+                <img src="/images/bandaselasticas.jpg" class="card-img-top" alt="Set bandas elásticas">
+                <div class="card-body">
+                    <h5 class="card-title"> Set bandas eslásticas Sportfitness</h5>
+                    <p class="card-text">Precio: $20500.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn bg-orange" data-bs-toggle="modal" data-bs-target="#modalBandas">
+                        Ver detalles
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalBandas" tabindex="-1" aria-labelledby="modalBandasLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="modalBandasLabel">Características Bandas elásticas
+                                        Sportfitness
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li> Material: Látex </li>
+                                        <li> Color- Medidas- Tensión</li>
+                                        <ol>
+                                            <li> Verde: 60x5x0,04 cm / 5 libras</li>
+                                            <li> Azul: 60x5x0,06 cm / 15 libras.</li>
+                                            <li> Amarillo: 60x5x0,08 cm / 20 libras.</li>
+                                            <li> Rojo: 60x5x0,1 cm / 30 libras.</li>
+                                            <li> Negro: 60x5x0,12 cm / 40 libras.</li>
+                                        </ol>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <a href="#" class="btn bg-orange">Añadir al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
